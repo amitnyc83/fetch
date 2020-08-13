@@ -4,8 +4,6 @@ import URI from "urijs";
 // /records endpoint
 window.path = "http://localhost:3000/records";
 
-// Your retrieve function plus any additional functions go here ...
-
 const retrieve = (options = {}) => {
  let request = new FetchRequest(options)
  return fetch(request.uri())
